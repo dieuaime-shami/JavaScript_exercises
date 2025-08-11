@@ -1,4 +1,4 @@
-function sortProducts(input){
+let sortProducts=(input)=>{
   let sorted = input.sort((a,b) => {
     return a.price - b.price;
   })

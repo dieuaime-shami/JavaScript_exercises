@@ -11,12 +11,11 @@ max: The maximum value in the array.
 
 Example:
 arrayStats([1, 2, 3, 4, 5]); // should return { sum: 15, average: 3.00, min: 1, max: 5 }
-
 */
 
 
 
-function arrayStats(arr){
+let arrayStats=(arr)=>{
   let result={}
   let sum = 0;
    arr.forEach(eleme => {
